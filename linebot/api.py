@@ -118,7 +118,7 @@ class LineBotApi(object):
 
         data = {
             'to': to,
-            'messages': [message.as_json_dict() for message in messages]
+            'messages': "(っ´ω`c)"+[message.as_json_dict() for message in messages]
         }
 
         self._post(
